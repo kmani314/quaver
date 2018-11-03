@@ -1,0 +1,29 @@
+{
+  "name": "quaver",
+  "version": "1.0.0",
+  "description": "CLI integration of Spotify and Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmani314/quaver.git"
+  },
+  "author": "krishna mani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmani314/quaver/issues"
+  },
+  "homepage": "https://github.com/kmani314/quaver#readme",
+  "bin": {
+    "quaver": "./index.js"
+  },
+  "dependencies": {
+    "audio-speaker": "^1.5.0",
+    "colors": "^1.3.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "wav": "^1.0.2",
+    "ytdl-core": "^0.26.3"
+  }
+}
