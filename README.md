@@ -3,7 +3,7 @@ Quaver is a CLI tool that uses [ffmpeg](https://github.com/fluent-ffmpeg/node-fl
 ## Installation
 
 As of now, Quaver only works on MacOS with the Spotify desktop app installed.
-
+You also must have the Ffmpeg command line utility installed on your computer.
 ```
 npm i -g quaver
 ```
