@@ -4,7 +4,8 @@ Quaver is a CLI tool that uses [ffmpeg](https://github.com/fluent-ffmpeg/node-fl
 
 As of now, Quaver only works on MacOS with the Spotify desktop app installed.
 
-```npm i -g quaver
+```
+npm i -g quaver
 ```
 
 ## Playback
@@ -28,7 +29,8 @@ https://www.youtube.com/watch?v=UYwF-jdcVjY
 ### Start Quaver
 Quaver has one main command: `play`
 To play a playlist, ensure spotify is running and run
-```quaver play <playlist.txt>
+```
+quaver play <playlist.txt>
 ```
 ### Play, Pause, Fast-Forward
 Play/pause/FF is currently being implemented, and 1.1.0 will be released very soon.
